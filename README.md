@@ -15,5 +15,5 @@ Note: The AR experience is best viewed on a mobile device. First load may take a
 
 ## Screenshots
 
-![screenshot](sample/1.png)
-![screenshot](sample/2.png)
+![screenshot](sample/1.PNG)
+![screenshot](sample/2.PNG)
