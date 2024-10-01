@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   gap: 30px;
 
-  /* background: linear-gradient(to right, white 10px, transparent 10px) 0 0,
+  background: linear-gradient(to right, white 10px, transparent 10px) 0 0,
     linear-gradient(to right, white 10px, transparent 10px) 0 100%,
     linear-gradient(to left, white 10px, transparent 10px) 100% 0,
     linear-gradient(to left, white 10px, transparent 10px) 100% 100%,
@@ -42,7 +42,7 @@ body {
     linear-gradient(to bottom, white 10px, transparent 10px) 100% 0,
     linear-gradient(to top, white 10px, transparent 10px) 0 100%,
     linear-gradient(to top, white 10px, transparent 10px) 100% 100%;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: 40px 40px;
 }
 
