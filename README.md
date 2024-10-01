@@ -11,3 +11,8 @@ Preview the AR experience [here](https://mind-ar-seven.vercel.app/)
 ![Mind AR](https://ea3933282ed8bccafbf8a4d8b7e2c4d8.ipfscdn.io/ipfs/bafybeiecr6a6mso7yoyof33wf3bhr45logwdh2n5hfeczzj5ifew2plybm/)
 
 Note: The AR experience is best viewed on a mobile device. First load may take a while as the assets are being loaded.
+
+## Screenshots
+
+![screenshot](sample/1.png)
+![screenshot](sample/2.png)
