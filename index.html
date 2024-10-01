@@ -37,7 +37,7 @@
         const urlParams = new URLSearchParams(queryString);
         const assetUrl =
           urlParams.get('assetUrl') ||
-          'https://bafybeifh3vv4o36cygup5otvjtr57fuws4eklqtlaaykgi5qkzgcfmpcne.ipfs.dweb.link/';
+          'https://ipfs.io/ipfs/bafybeifh3vv4o36cygup5otvjtr57fuws4eklqtlaaykgi5qkzgcfmpcne/';
         const markerUrl =
           urlParams.get('markerUrl') ||
           'https://ea3933282ed8bccafbf8a4d8b7e2c4d8.ipfscdn.io/ipfs/bafybeiecr6a6mso7yoyof33wf3bhr45logwdh2n5hfeczzj5ifew2plybm/';
@@ -56,6 +56,7 @@
         } else {
           // window.location.href = 'https://google.com';
         }
+        console.log('Mind AR Test', assetUrl, markerUrl);
       };
     </script>
   </head>
