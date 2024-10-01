@@ -37,14 +37,14 @@
         const urlParams = new URLSearchParams(queryString);
         const assetUrl =
           urlParams.get('assetUrl') ||
-          'https://raw.githubusercontent.com/kelokchan/mind-ar/refs/heads/main/assets/';
+          'https://bafybeigoeg27s6mqyd6g2ihy37vqvksymjqo23m5cmvis4kpqzqsri2a5m.ipfs.dweb.link/';
         const markerUrl =
           urlParams.get('markerUrl') ||
           'https://ea3933282ed8bccafbf8a4d8b7e2c4d8.ipfscdn.io/ipfs/bafybeiecr6a6mso7yoyof33wf3bhr45logwdh2n5hfeczzj5ifew2plybm/';
 
         if (assetUrl) {
           const asset = document.getElementById('animated-asset');
-          asset.setAttribute('src', assetUrl + 'asset.glb');
+          asset.setAttribute('src', assetUrl + 'asset.gltf');
 
           const marker = document.getElementById('animated-marker');
           marker.setAttribute('url', assetUrl + 'marker.patt');
