@@ -37,14 +37,14 @@
         const urlParams = new URLSearchParams(queryString);
         const assetUrl =
           urlParams.get('assetUrl') ||
-          'https://bafybeigoeg27s6mqyd6g2ihy37vqvksymjqo23m5cmvis4kpqzqsri2a5m.ipfs.dweb.link/';
+          'https://bafybeifh3vv4o36cygup5otvjtr57fuws4eklqtlaaykgi5qkzgcfmpcne.ipfs.dweb.link/';
         const markerUrl =
           urlParams.get('markerUrl') ||
           'https://ea3933282ed8bccafbf8a4d8b7e2c4d8.ipfscdn.io/ipfs/bafybeiecr6a6mso7yoyof33wf3bhr45logwdh2n5hfeczzj5ifew2plybm/';
 
         if (assetUrl) {
           const asset = document.getElementById('animated-asset');
-          asset.setAttribute('src', assetUrl + 'asset.gltf');
+          asset.setAttribute('src', assetUrl + 'asset.glb');
 
           const marker = document.getElementById('animated-marker');
           marker.setAttribute('url', assetUrl + 'marker.patt');
@@ -67,7 +67,7 @@
           Look for this image to start your <br />AR experience
         </p>
         <img id="overlay-img" src="" />
-        <!-- <div class="scanline"></div> -->
+        <div class="scanline"></div>
       </div>
     </div>
     <a-scene
